@@ -26,6 +26,25 @@ São acessadas por meio de Endpoints, que são as URLs nas quais são feitas as 
 - Que pode conter informações como dados de autenticação da API, dados de origem da requisição e formato do retorno.
 Embora o corpo da requisição e do retorno possam utilizar outros formatos, de modo geral é utilizado o formato JSON como padrão, tanto para o envio quanto para o retorno das requisições. Esse formato é escolhido, principalmente, por sua compatibilidade simples entre as linguagens e frameworks existentes, tanto de backend quanto de frontend.
 
+##Endpoints no heroku
+
+* [api/v1/people](https://personapi-israel.herokuapp.com/api/v1/people)
+- Utilizando aplicativo Postman com o verbo POST
+ **localhost:8080/api/v1/people** com a estrutura JSON:
+```shell script
+  {
+    "firstName": "Ninguem",
+    "lastName": "Meugnin",
+"cpf":"426.220.280-16",
+  "phones": [
+       {
+        "type": "MOBILE",
+        "number": "(71)999999999"
+       }
+     ]
+  }
+```
+
 Para executar o projeto no terminal, digite o seguinte comando:
 
 ```shell script
