@@ -44,7 +44,24 @@ Embora o corpo da requisição e do retorno possam utilizar outros formatos, de 
      ]
   }
 ```
-
+- Utilizando aplicativo Postman com o verbo GET
+  **localhost:8080/api/v1/people/1** recebemos o JSON:
+```shell script
+  {
+    "id": 1,
+    "firstName": "Ninguem",
+    "lastName": "Meugnin",
+    "cpf": "426.220.280-16",
+    "birthDate": null,
+    "phones": [
+        {
+            "id": 1,
+            "type": "MOBILE",
+            "number": "(71)999999999"
+        }
+    ]
+}
+```
 Para executar o projeto no terminal, digite o seguinte comando:
 
 ```shell script
