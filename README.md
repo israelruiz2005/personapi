@@ -62,6 +62,9 @@ Embora o corpo da requisição e do retorno possam utilizar outros formatos, de 
     ]
 }
 ```
+O teste acima poderia ser realizado com o endpoit do heroku https://personapi-israel.herokuapp.com/api/v1/people/1
+
+
 Para executar o projeto no terminal, digite o seguinte comando:
 
 ```shell script
